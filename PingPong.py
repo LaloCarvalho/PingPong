@@ -1,12 +1,9 @@
-# Game Ping-Pong
-
 from tkinter import *
 import random
 import time
 
 level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
 length = 500/level
-
 
 root = Tk()
 root.title("Ping Pong")
@@ -18,7 +15,6 @@ canvas.pack()
 
 root.update()
 
-# Variável
 count = 0
 lost = False
 
